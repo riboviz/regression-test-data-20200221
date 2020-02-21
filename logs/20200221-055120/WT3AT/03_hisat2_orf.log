@@ -1,0 +1,13 @@
+/home/ubuntu/hisat2-2.1.0/hisat2-align-s version 2.1.0
+64-bit
+Built on login-node03
+Wed Jun  7 15:53:42 EDT 2017
+Compiler: gcc version 4.8.2 (GCC) 
+Options: -O3 -m64 -msse2 -funroll-loops -g3 -DPOPCNT_CAPABILITY
+Sizeof {int, long, long long, void*, size_t, off_t}: {4, 8, 8, 8, 8, 8}
+486233 reads; of these:
+  486233 (100.00%) were unpaired; of these:
+    477792 (98.26%) aligned 0 times
+    8184 (1.68%) aligned exactly 1 time
+    257 (0.05%) aligned >1 times
+1.74% overall alignment rate

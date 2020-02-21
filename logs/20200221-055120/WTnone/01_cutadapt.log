@@ -1,0 +1,82 @@
+This is cutadapt 2.5 with Python 3.7.3
+Command line parameters: --trim-n -O 1 -m 5 -a CTGTAGGCACC -o vignette/tmp/WTnone/trim.fq vignette/input/SRR1042855_s1mi.fastq.gz -j 0
+Processing reads on 4 cores in single-end mode ...
+Finished in 3.07 s (3 us/read; 18.85 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 963,571
+Reads with adapters:                   958,926 (99.5%)
+Reads that were too short:              11,228 (1.2%)
+Reads written (passing filters):       952,343 (98.8%)
+
+Total basepairs processed:    49,142,121 bp
+Total written (filtered):     26,783,758 bp (54.5%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTAGGCACC; Type: regular 3'; Length: 11; Trimmed: 958926 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-11 bp: 1
+
+Bases preceding removed adapters:
+  A: 29.1%
+  C: 17.9%
+  G: 30.0%
+  T: 22.3%
+  none/other: 0.7%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	1118	240892.8	0	1118
+2	69	60223.2	0	69
+3	40	15055.8	0	40
+4	37	3763.9	0	37
+5	41	941.0	0	41
+6	48	235.2	0	48
+7	73	58.8	0	73
+8	163	14.7	0	163
+9	69	3.7	0	68 1
+10	280	0.9	1	252 28
+11	490	0.2	1	445 45
+12	309	0.2	1	266 43
+13	1034	0.2	1	928 106
+14	4277	0.2	1	3802 475
+15	6299	0.2	1	5607 692
+16	9137	0.2	1	8182 955
+17	23409	0.2	1	20709 2700
+18	33669	0.2	1	29791 3878
+19	59540	0.2	1	52722 6818
+20	55974	0.2	1	49533 6441
+21	83681	0.2	1	73932 9749
+22	157808	0.2	1	140867 16941
+23	171230	0.2	1	152639 18591
+24	98360	0.2	1	87782 10578
+25	57510	0.2	1	51429 6081
+26	60912	0.2	1	54293 6619
+27	29396	0.2	1	26216 3180
+28	21915	0.2	1	19515 2400
+29	17021	0.2	1	15118 1903
+30	13350	0.2	1	11871 1479
+31	6982	0.2	1	6233 749
+32	9338	0.2	1	8409 929
+33	7417	0.2	1	6660 757
+34	5767	0.2	1	5141 626
+35	6092	0.2	1	5343 749
+36	2381	0.2	1	1955 426
+37	1109	0.2	1	976 133
+38	592	0.2	1	515 77
+39	317	0.2	1	270 47
+40	172	0.2	1	150 22
+41	107	0.2	1	95 12
+42	65	0.2	1	52 13
+43	39	0.2	1	33 6
+44	31	0.2	1	25 6
+45	16	0.2	1	13 3
+46	14	0.2	1	14
+47	26	0.2	1	23 3
+48	47	0.2	1	40 7
+49	47	0.2	1	44 3
+50	231	0.2	1	207 24
+51	10877	0.2	1	8773 2104

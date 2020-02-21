@@ -1,0 +1,46 @@
+[1] "Created by: RiboViz"
+[1] "Date: 2020-02-21 05:53:39"
+[1] "File: /home/ubuntu/riboviz/rscripts/collate_tpms.R"
+[1] "Version: commit ce57fc9f618b79dd08498bb473842fca7fcbacfa date 2020-02-21 13:40:30"
+[1] "collate_tpms.R running with parameters:"
+$options
+$options$output_dir
+[1] "vignette/output"
+
+$options$tpms_file
+[1] "TPMs_collated.tsv"
+
+$options$sample_subdirs
+[1] TRUE
+
+$options$help
+[1] FALSE
+
+
+$args
+[1] "WTnone" "WT3AT" 
+
+[1] "Loading ORFs from: vignette/output/WTnone/tpms.tsv"
+Parsed with column specification:
+cols(
+  ORF = col_character(),
+  readcount = col_double(),
+  rpb = col_double(),
+  tpm = col_double()
+)
+[1] "Loading TPMs from: vignette/output/WTnone/tpms.tsv"
+Parsed with column specification:
+cols(
+  ORF = col_character(),
+  readcount = col_double(),
+  rpb = col_double(),
+  tpm = col_double()
+)
+[1] "Loading TPMs from: vignette/output/WT3AT/tpms.tsv"
+Parsed with column specification:
+cols(
+  ORF = col_character(),
+  readcount = col_double(),
+  rpb = col_double(),
+  tpm = col_double()
+)

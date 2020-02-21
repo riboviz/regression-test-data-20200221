@@ -1,0 +1,131 @@
+[1] "Created by: RiboViz"
+[1] "Date: 2020-02-21 05:53:08"
+[1] "File: /home/ubuntu/riboviz/rscripts/generate_stats_figs.R"
+[1] "Version: commit ce57fc9f618b79dd08498bb473842fca7fcbacfa date 2020-02-21 13:40:30"
+[1] "generate_stats_figs.R running with parameters:"
+$output_dir
+[1] "vignette/output/WT3AT"
+
+$orf_fasta_file
+[1] "vignette/input/yeast_YAL_CDS_w_250utrs.fa"
+
+$orf_gff_file
+[1] "vignette/input/yeast_YAL_CDS_w_250utrs.gff3"
+
+$num_processes
+[1] 1
+
+$min_read_length
+[1] 10
+
+$max_read_length
+[1] 50
+
+$buffer
+[1] 250
+
+$primary_id
+[1] "Name"
+
+$dataset
+[1] "vignette"
+
+$rpf
+[1] TRUE
+
+$features_file
+[1] "data/yeast_features.tsv"
+
+$do_pos_sp_nt_freq
+[1] TRUE
+
+$t_rna_file
+[1] "data/yeast_tRNAs.tsv"
+
+$codon_positions_file
+[1] "data/yeast_codon_pos_i200.RData"
+
+$count_threshold
+[1] 64
+
+$output_prefix
+[1] ""
+
+$hd_file
+[1] "vignette/output/WT3AT/WT3AT.h5"
+
+$nnt_buffer
+[1] 25
+
+$nnt_gene
+[1] 50
+
+$asite_disp_length_file
+[1] "data/yeast_standard_asite_disp_length.txt"
+
+$help
+[1] FALSE
+
+[1] "Starting: Check for 3nt periodicity globally"
+Saving 7 x 7 in image
+Warning message:
+In write.table(gene_pos_counts_bothends, file = tsv_file_path, append = T,  :
+  appending column names to file
+[1] "Completed: Check for 3nt periodicity globally"
+[1] "Starting: Distribution of lengths of all mapped reads"
+Saving 7 x 7 in image
+Warning message:
+In write.table(read_length_data, file = tsv_file_path, append = T,  :
+  appending column names to file
+[1] "Completed: Distribution of lengths of all mapped reads"
+[1] "Starting: Biases in nucleotide composition along mapped read lengths"
+[1] "Completed nucleotide composition bias table"
+Warning message:
+In write.table(all_out, file = tsv_file_path, append = T, sep = "\t",  :
+  appending column names to file
+[1] "Starting: Check for 3nt periodicity (frame) by Gene"
+Parsed with column specification:
+cols(
+  read_length = col_double(),
+  asite_disp = col_double()
+)
+[1] "Completed: Check for 3nt periodicity (frame) by Gene"
+Warning message:
+In write.table(gene_read_frames, file = tsv_file_path, append = T,  :
+  appending column names to file
+[1] "Starting: Position specific distribution of reads"
+Saving 7 x 7 in image
+Warning message:
+In write.table(pos_sp_rpf_norm_reads, file = tsv_file_path, append = T,  :
+  appending column names to file
+[1] "Completed: Position specific distribution of reads"
+[1] "Starting: Calculate TPMs of genes"
+Warning message:
+In write.table(tpms, file = tsv_file_path, append = T, sep = "\t",  :
+  appending column names to file
+[1] "Starting: Correlations between TPMs of genes with their sequence-based features"
+Saving 7 x 7 in image
+[1] "Completed: Correlations between TPMs of genes with their sequence-based features"
+Warning messages:
+1: Removed 4 rows containing non-finite values (stat_smooth). 
+2: Removed 4 rows containing missing values (geom_point). 
+[1] "Starting: Codon-specific ribosome densities for correlations with tRNAs"
+Saving 7 x 7 in image
+[1] "Completed: Codon-specific ribosome densities for correlations with tRNAs"
+Warning messages:
+1: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+2: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+3: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+4: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+5: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+6: In mean.default(unlist(apply(codon_pos[[codon]], 1, function(a) { :
+  argument is not numeric or logical: returning NA
+7: Removed 24 rows containing non-finite values (stat_smooth). 
+8: Removed 24 rows containing missing values (geom_point). 
+9: In write.table(cod_dens_tRNA, file = tsv_file_path, append = T,  :
+  appending column names to file

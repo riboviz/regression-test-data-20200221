@@ -1,0 +1,82 @@
+This is cutadapt 2.5 with Python 3.7.3
+Command line parameters: --trim-n -O 1 -m 5 -a CTGTAGGCACC -o vignette/tmp/WT3AT/trim.fq vignette/input/SRR1042864_s1mi.fastq.gz -j 0
+Processing reads on 4 cores in single-end mode ...
+Finished in 4.73 s (3 us/read; 17.44 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               1,374,448
+Reads with adapters:                 1,359,195 (98.9%)
+Reads that were too short:               1,086 (0.1%)
+Reads written (passing filters):     1,373,362 (99.9%)
+
+Total basepairs processed:    70,096,848 bp
+Total written (filtered):     34,242,330 bp (48.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTAGGCACC; Type: regular 3'; Length: 11; Trimmed: 1359195 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-11 bp: 1
+
+Bases preceding removed adapters:
+  A: 28.7%
+  C: 20.6%
+  G: 31.5%
+  T: 19.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3559	343612.0	0	3559
+2	450	85903.0	0	450
+3	212	21475.8	0	212
+4	7	5368.9	0	7
+5	12	1342.2	0	12
+6	13	335.6	0	13
+7	13	83.9	0	13
+8	16	21.0	0	16
+9	13	5.2	0	13
+10	37	1.3	1	36 1
+11	169	0.3	1	157 12
+12	44	0.3	1	43 1
+13	99	0.3	1	92 7
+14	627	0.3	1	595 32
+15	492	0.3	1	466 26
+16	1300	0.3	1	1240 60
+17	7418	0.3	1	7134 284
+18	17866	0.3	1	17135 731
+19	42764	0.3	1	41039 1725
+20	49778	0.3	1	47570 2208
+21	90318	0.3	1	86714 3604
+22	131001	0.3	1	126125 4876
+23	148376	0.3	1	142612 5764
+24	92291	0.3	1	88545 3746
+25	79662	0.3	1	76434 3228
+26	159931	0.3	1	153040 6891
+27	84498	0.3	1	81117 3381
+28	59343	0.3	1	56895 2448
+29	68348	0.3	1	65730 2618
+30	38622	0.3	1	36907 1715
+31	28940	0.3	1	27587 1353
+32	28751	0.3	1	27519 1232
+33	29683	0.3	1	28375 1308
+34	33972	0.3	1	32436 1536
+35	53397	0.3	1	50805 2592
+36	19059	0.3	1	18169 890
+37	28322	0.3	1	26999 1323
+38	25242	0.3	1	24019 1223
+39	17131	0.3	1	16306 825
+40	7190	0.3	1	6845 345
+41	2679	0.3	1	2537 142
+42	1952	0.3	1	1870 82
+43	4107	0.3	1	3953 154
+44	282	0.3	1	270 12
+45	93	0.3	1	91 2
+46	32	0.3	1	30 2
+47	39	0.3	1	38 1
+48	16	0.3	1	16
+49	28	0.3	1	26 2
+50	57	0.3	1	49 8
+51	944	0.3	1	843 101

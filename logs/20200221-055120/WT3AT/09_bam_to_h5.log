@@ -1,0 +1,55 @@
+[1] "Created by: RiboViz"
+[1] "Date: 2020-02-21 05:52:51"
+[1] "File: /home/ubuntu/riboviz/rscripts/bam_to_h5.R"
+[1] "Version: commit ce57fc9f618b79dd08498bb473842fca7fcbacfa date 2020-02-21 13:40:30"
+The following object is masked _by_ .GlobalEnv:
+
+    secondary_id
+
+[1] "bam_to_h5.R running with parameters:"
+$num_processes
+[1] 1
+
+$min_read_length
+[1] 10
+
+$max_read_length
+[1] 50
+
+$buffer
+[1] 250
+
+$primary_id
+[1] "Name"
+
+$secondary_id
+[1] "NULL"
+
+$bam_file
+[1] "vignette/output/WT3AT/WT3AT.bam"
+
+$hd_file
+[1] "vignette/output/WT3AT/WT3AT.h5"
+
+$orf_gff_file
+[1] "vignette/input/yeast_YAL_CDS_w_250utrs.gff3"
+
+$dataset
+[1] "vignette"
+
+$stop_in_cds
+[1] FALSE
+
+$is_riboviz_gff
+[1] TRUE
+
+$is_test_run
+[1] FALSE
+
+$help
+[1] FALSE
+
+[1] "Mapping reads to CDS"
+[1] "Saving mapped reads in a H5 file"
+[1] TRUE
+[1] "bam_to_h5.R done"
